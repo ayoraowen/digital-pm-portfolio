@@ -37,7 +37,7 @@ const Contact = () => {
                   <p className="text-sm text-muted-foreground mb-4">Connect on social</p>
                   <div className="flex gap-4 justify-center">
                     <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
-                      <a href="https://www.linkedin.com/in/jillmoraa/" target="_blank" rel="noreferrer">
+                      <a href="https://www.linkedin.com/in/jill-moraa/" target="_blank" rel="noreferrer">
                       <Linkedin className="h-5 w-5" />
                       </a>
                     </Button>
