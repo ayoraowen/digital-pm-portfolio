@@ -36,12 +36,14 @@ const Contact = () => {
                 <div className="pt-8 border-t border-border">
                   <p className="text-sm text-muted-foreground mb-4">Connect on social</p>
                   <div className="flex gap-4 justify-center">
-                    <Button variant="ghost" size="icon" className="hover:text-accent">
+                    <Button variant="ghost" size="icon" className="hover:text-accent" asChild>
+                      <a href="https://www.linkedin.com/in/jillmoraa/" target="_blank" rel="noreferrer">
                       <Linkedin className="h-5 w-5" />
+                      </a>
                     </Button>
-                    <Button variant="ghost" size="icon" className="hover:text-accent">
+                    {/* <Button variant="ghost" size="icon" className="hover:text-accent">
                       <Github className="h-5 w-5" />
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </div>
