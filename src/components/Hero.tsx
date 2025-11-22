@@ -23,8 +23,11 @@ const Hero = () => {
       <div className="container mx-auto px-6 relative z-10 text-center">
         <div className="max-w-4xl mx-auto space-y-6 animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground tracking-tight">
-            Digital Product Manager
+            Jill Moraa
           </h1>
+          <h3 className="text-5xl md:text-7xl font-bold text-primary-foreground tracking-tight">
+            Digital Product Manager
+          </h3>
           <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
             Transforming ideas into impactful digital experiences through user-centered design and data-driven strategy
           </p>
